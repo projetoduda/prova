@@ -1,0 +1,31 @@
+.titulo{
+  color: green;
+}
+
+.img_foto{
+  border-radius: 12%;
+}
+
+#galeria{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   position: relative;
+   margin: 15px 15px;
+ }
+
+ #galeria .galeria{
+   margin: 15px 15px;
+   text-align: center;
+
+ }
+
+.imggaleria{
+  width: 100%;
+  border-radius: 14%;
+  transition: width 3s;
+}
+
+.imggaleria:hover {
+  width: 20%;
+}
